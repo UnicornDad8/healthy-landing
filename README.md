@@ -2,7 +2,7 @@
 
 > This is a page made with HTML and Tailwind, we used a prebuild design on photoshop.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_srceenshot.png)
 
 ## 🔧 Built With
 
