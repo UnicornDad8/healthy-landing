@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-family {
+  font-family: "DM Sans", sans-serif;
+}
+
+.button-glow {
+  box-shadow: 0 5px 30px #84cc16;
+}
+
+h2 {
+  @apply text-5xl leading-normal font-bold tracking-wide font-family;
+}
+
+h3 {
+  @apply text-3xl font-bold text-black font-family;
+}
+
+h4 {
+  @apply text-base font-semibold text-black font-family;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-lime-500 via-green-500 to-green-500 inline-block text-transparent bg-clip-text;
+}
+
+ul {
+  @apply font-family flex space-x-6 items-center text-base font-medium mr-12;
+}
+
+.btn {
+  @apply h-12 font-family px-6 rounded-lg cursor-pointer;
+}
+
+.btn-gradient {
+  @apply bg-gradient-to-r from-lime-500 to-green-500 text-white opacity-100 hover:opacity-80 transition-all;
+}
+
+.btn-bordered {
+  @apply text-black opacity-80 border-[1px] border-black shadow-xl hover:shadow-none transition-all;
+}
+
+.leading-text {
+  @apply leading-7 font-family text-gray-800 opacity-70;
+}
